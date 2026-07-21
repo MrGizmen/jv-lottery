@@ -13,5 +13,4 @@ public class Lottery {
         int number = randomNumberSupplier.nextInt(MAX_RANDOM_BOUND);
         return new Ball(color, number);
     }
-
 }
